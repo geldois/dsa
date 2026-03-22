@@ -1,0 +1,9 @@
+# https://cses.fi/problemset/task/1083
+
+INSIGHT
+- missing number = sum difference problem
+- expected sum - actual sum
+
+COMPLEXITY
+- time: O(n)
+- space: O(1) auxiliary
