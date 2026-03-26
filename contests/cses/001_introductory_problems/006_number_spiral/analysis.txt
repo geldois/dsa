@@ -1,0 +1,11 @@
+# https://cses.fi/problemset/task/1071
+
+INSIGHT
+- determine the layer using max(x, y)
+- the largest value on a layer is layer^2
+- compute the offset from that value based on the position and layer parity
+- subtract the offset to get the final number
+
+COMPLEXITY
+- time: O(n)
+- space: O(n)
