@@ -1,0 +1,9 @@
+# https://cses.fi/problemset/task/1072
+
+INSIGHT
+- combinatorial problem with constraints (knight attack pairs)
+- total number of pairs - attacking pairs
+
+COMPLEXITY
+- time: O(n)
+- space: O(1) auxiliary
