@@ -1,6 +1,6 @@
-# problems
+# dsa
 
-Curated solutions to algorithmic, computational and mathematical problems.
+A structured system for mastering algorithms and data structures through fundamental implementations and deliberate problem solving.
 
 ## Philosophy
 
@@ -14,12 +14,10 @@ The objective is not volume — it is technical maturity.
 
 ## Structure
 
-- `algorithms/` - Core algorithm implementations and reusable data structures
-- `contests/` - All solved problems, organized by source
-- `notes/` - Extracted insights, patterns, and comparisons
+- `core/` - Fundamental data structures and algorithms
+- `docs/` - Structured documentation and references
+- `problems/` - All solved problems, organized by source
 - `showcase/` - Solutions that demonstrate strong techniques or patterns
-
-Each problem is isolated in its own directory.
 
 ## Rules
 
@@ -35,8 +33,9 @@ For each problem:
 
 1. Create a dedicated directory
 2. Place the solution file inside
-3. Add the original problem link at the top of the file
-4. Commit with: `feat: add solution to <problem-id>`
+3. Place the analysis file inside
+4. Add the original problem link at the top of the file
+5. Commit with: `feat: add solution to <problem-id>`
 
 If the solution reveals a reusable technique, promote it to `showcase/`.
 
@@ -58,6 +57,9 @@ This is a long-term repository.
 ## Run
 
 ```bash
-git clone https://github.com/geldois/problems.git
-cd problems
+git clone https://github.com/geldois/dsa.git
+cd dsa
+python3 -m venv .venv
+source .venv/bin/activate
+pip install ruff
 ```
