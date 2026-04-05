@@ -1,0 +1,9 @@
+# https://cses.fi/problemset/task/1617
+
+INSIGHT
+- compute 2^n mod M using binary exponentiation
+- decompose n into powers of 2 and accumulate contributions when bits are set
+
+COMPLEXITY
+- time: O(log n)
+- space: O(1) auxiliary
