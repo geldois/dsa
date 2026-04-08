@@ -1,0 +1,10 @@
+# https://cses.fi/problemset/task/1754
+
+INSIGHT
+- each move removes 3 coins in total, so (a + b) must be divisible by 3
+- the larger pile cannot exceed twice the smaller one, otherwise it cannot be balanced
+
+COMPLEXITY
+- time: O(1)
+- space: O(1)
+ 
