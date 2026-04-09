@@ -16,6 +16,7 @@ The objective is not volume — it is technical maturity.
 
 - `core/` - Fundamental data structures and algorithms
 - `docs/` - Structured documentation and references
+- `foundations/` - Fundamental concept training
 - `problems/` - All solved problems, organized by source
 - `showcase/` - Solutions that demonstrate strong techniques or patterns
 
@@ -41,7 +42,8 @@ If the solution reveals a reusable technique, promote it to `showcase/`.
 
 ## Languages
 
-- Python
+1. Python
+2. Haskell
 
 ## Purpose
 
@@ -51,6 +53,7 @@ To build durable reasoning skill through:
 - Pattern extraction
 - Controlled iteration
 - Technical clarity
+- Conceptual mastery through structured foundational training
 
 This is a long-term repository.
 
