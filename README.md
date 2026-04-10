@@ -30,13 +30,15 @@ The objective is not volume — it is technical maturity.
 
 ## Workflow
 
+For foundations:
+
+- Implement concept-focused modules
+- Commit with: `feat: implement <concept> <approach>`
+
 For each problem:
 
-1. Create a dedicated directory
-2. Place the solution file inside
-3. Place the analysis file inside
-4. Add the original problem link at the top of the file
-5. Commit with: `feat: add solution to <problem-id>`
+- Implement problem-focused folders
+- Commit with: `feat: add solution to <problem-id>`
 
 If the solution reveals a reusable technique, promote it to `showcase/`.
 
@@ -62,7 +64,4 @@ This is a long-term repository.
 ```bash
 git clone https://github.com/geldois/dsa.git
 cd dsa
-python3 -m venv .venv
-source .venv/bin/activate
-pip install ruff
 ```
