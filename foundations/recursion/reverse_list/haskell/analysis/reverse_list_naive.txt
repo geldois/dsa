@@ -1,0 +1,13 @@
+-- Implement a naive-recursive reverse list
+
+INSIGHT
+- each call defers work until the recursive call returns, then appends the \
+    current element to the end
+- recursion stops when the list is empty ([]), meaning there are no more elements \
+    to process
+
+COMPLEXITY
+- time: O(n²)
+    - `++` traverses the entire left list at each step
+- space: O(n)
+    - recursion stack
