@@ -1,0 +1,15 @@
+# https://cses.fi/problemset/task/1755
+
+INSIGHT
+- a palindrome can be constructed if at most one character has odd frequency
+- build the left half using half of each character count
+- place the odd-frequency character (if any) in the middle
+- mirror the left half to form the right half
+
+COMPLEXITY
+- time: O(n)
+    - counting characters is O(n)
+    - building half and mirroring is O(n)
+- space: O(n)
+    - in this problem, dicts and sets can store up at most 26 uppercase letters: O(1)
+    - resulting palindrome uses O(n) space
