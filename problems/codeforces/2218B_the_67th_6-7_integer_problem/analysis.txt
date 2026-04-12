@@ -1,0 +1,13 @@
+# https://codeforces.com/problemset/problem/2218/B
+
+INSIGHT
+- the result depends on comparing the maximum element with the sum of the remaining \
+    elements
+- compute the total sum and track the maximum in a single pass over the input
+- the answer is max - (sum - max)
+
+COMPLEXITY
+- time: O(n)
+    - single pass to compute sum and maximum
+- space: O(1)
+    - no additional data structures are used; values are processed on the fly
