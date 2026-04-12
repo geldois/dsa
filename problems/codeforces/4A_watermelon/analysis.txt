@@ -1,0 +1,9 @@
+# https://codeforces.com/problemset/problem/4/A
+
+INSIGHT
+- a valid split exists if w can be expressed as the sum of two positive even numbers
+- this is only possible when w is even and greater than 2
+
+COMPLEXITY
+- time: O(1)
+- space: O(1)
