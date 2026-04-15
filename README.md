@@ -44,6 +44,7 @@ If the solution reveals a reusable technique, promote it to `showcase/`.
 
 ## Languages
 
+- C
 - Haskell
 - Python
 

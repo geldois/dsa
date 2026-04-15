@@ -1,0 +1,13 @@
+// Given a null-terminated string, reverse it in place using only pointer manipulation.
+
+INSIGHT
+- a null-terminated string is a contiguous memory region ending with '\0'
+- find the last valid character by traversing until the terminator
+- use two pointers (start and end) to swap elements in place while moving toward the \
+    center
+- stop when the pointers meet or cross, ensuring the string is reversed without extra \
+    memory
+
+COMPLEXITY
+- time: O(n)
+- space: O(1) auxiliary
