@@ -1,0 +1,10 @@
+TIME COMPLEXITY
+- delete: O(n)
+- insert: O(n)
+- print: O(n)
+- search: O(n)
+- update: O(n)
+
+SPACE COMPLEXITY
+- auxiliary: O(1)
+- data structure: O(n)
