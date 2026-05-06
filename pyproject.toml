@@ -1,6 +1,6 @@
 [project]
 name = "dsa"
-version = "0.0.1"
+version = "0.1.0"
 description = "A structured system for mastering algorithms and data structures"
 dependencies = []
 
