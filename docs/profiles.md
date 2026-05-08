@@ -1,13 +1,13 @@
 # Profiles
 
-Centralized links to my programming and problem-solving profiles.
+Centralized links to my profiles.
 
-## GitHub
+## Portfolio
 
-- profile: <https://github.com/geldois>
-- focus: portfolio
+- GitHub: <https://github.com/geldois>
+- LinkedIn: <https://linkedin.com/in/geldois>
 
-## CSES
+## Competitive programming
 
-- profile: <https://cses.fi/user/362660>
-- focus: competitive programming
+- Codeforces: <https://codeforces.com/profile/geldois>
+- CSES: <https://cses.fi/user/362660>
