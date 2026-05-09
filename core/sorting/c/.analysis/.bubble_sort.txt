@@ -1,7 +1,9 @@
 INSIGHT
+
 - the largest numbers "bubble up" to the end of the array one at a time
 
 COMPLEXITY
+
 - time:
     - average: Θ(n²)
     - best: Θ(n²)
@@ -9,4 +11,10 @@ COMPLEXITY
     - worst: Θ(n²)
         - the array is reverse sorted
 - space: Θ(1) auxiliary
-    - in-place (no auxiliary structures are built)
+
+PROPERTIES
+
+- comparison-based
+- in-place
+- iterative
+- stable
