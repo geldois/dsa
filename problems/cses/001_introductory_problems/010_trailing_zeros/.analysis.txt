@@ -1,9 +1,0 @@
-# https://cses.fi/problemset/task/1618
-
-INSIGHT
-- count factors of 5 in n! since each contributes to a trailing zero
-- sum [n / 5^k] for all k >= 1
-
-COMPLEXITY
-- time: O(log n)
-- space: O(1)

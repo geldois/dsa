@@ -1,3 +1,15 @@
+/*
+ * INSIGHT
+ * shifts larger elements right to open space for the current element
+ *
+ * COMPLEXITY
+ * time: Θ(n) [best] | Θ(n²) [average/worst]
+ * space: Θ(1) [auxiliary]
+ *
+ * PROPERTIES
+ * comparison-based | in-place | iterative | stable
+ */
+
 #include <stdio.h>
 
 void insertion_sort(int *array, size_t size) {

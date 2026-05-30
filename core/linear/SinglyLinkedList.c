@@ -1,3 +1,9 @@
+/*
+ * COMPLEXITY
+ * time: O(n) [delete/insert/print/search/update]
+ * space: O(1) [auxiliary] | O(n) [data structure]
+ */
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,8 +17,6 @@ typedef struct SinglyLinkedList {
     struct Node *head;
     int size;
 } SinglyLinkedList;
-
-// METHODS
 
 SinglyLinkedList *create_list() {
     SinglyLinkedList *list = malloc(sizeof(SinglyLinkedList));

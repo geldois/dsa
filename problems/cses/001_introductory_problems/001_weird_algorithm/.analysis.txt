@@ -1,9 +1,0 @@
-# https://cses.fi/problemset/task/1068
-
-INSIGHT
-- simulate the Collatz sequence
-- repeatedly apply: n/2 if even, 3n+1 if odd
-
-COMPLEXITY
-- time: unknown (depends on Collatz sequence length)
-- space: O(1)

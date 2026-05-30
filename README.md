@@ -4,83 +4,53 @@ A structured system for mastering algorithms and data structures.
 
 ## Philosophy
 
-This repository documents the continuous refinement of problem-solving ability.
-
-Every solution is versioned.  
-Every problem is a unit of deliberate practice.  
-Selected solutions are elevated when they demonstrate reusable techniques or non-trivial insight.
-
-The objective is not volume — it is technical maturity.
+Every commit represents a unit of deliberate practice.
+The objective is not volume — it is cognitive density.
 
 ## Structure
 
-- `core/` - Fundamental data structures and algorithms
-- `docs/` - Structured documentation and references
-- `foundations/` - Fundamental concept training
-- `problems/` - All solved problems, organized by source
-- `showcase/` - Solutions that demonstrate strong techniques or patterns
+- `core/` — Data structure implementations from scratch
+- `problems/` — Solved problems
 
 ## Rules
 
-- One problem per commit
+- Commit only when there is non-trivial insight
 - No mass commits
 - Explicit over clever
-- Refactor only when insight improves
-- Showcase only when justified
+- Analysis inline as comments — no separate files
+- Refactor only when understanding improves
 
 ## Workflow
 
-For foundations:
+For each structure in `core/`:
 
-- Implement concept-focused modules
-- Commit with: `feat: implement <concept> <approach>`
+- Implement from scratch
+- Commit with: `feat: implement <structure>`
 
-For each problem:
+For each problem in `problems/`:
 
-- Implement problem-focused folders
+- Document insight and complexity as inline comments
 - Commit with: `feat: add solution to <problem-id>`
-
-If the solution reveals a reusable technique, promote it to `showcase/`.
 
 ## Languages
 
 - C
-- Haskell
 - Python
+- Rust — planned
 
-## Purpose
-
-To build durable reasoning skill through:
-
-- Algorithmic rigor
-- Pattern extraction
-- Controlled iteration
-- Technical clarity
-- Conceptual mastery through structured foundational training
-
-This is a long-term repository.
-
-## Run
+## Setup
 
 ### On Linux
 
 ```bash
-# clone repository
-git clone https://github.com/geldois/dsa.git && cd dsa
-
-# create virtual environment and install dependencies
-python3 -m venv .venv && source .venv/bin/activate && pip install -e ".[dev]"
-```
-
-### On Windows
-
-```bash
-# clone repository
 git clone https://github.com/geldois/dsa.git
 cd dsa
-
-# create virtual environment and install dependencies
-python -m venv .venv
-.venv\Scripts\Activate
+python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 ```
+
+## Profiles
+
+- GitHub: <https://github.com/geldois>
+- LinkedIn: <https://linkedin.com/in/geldois>
+- Codeforces: <https://codeforces.com/profile/geldois>

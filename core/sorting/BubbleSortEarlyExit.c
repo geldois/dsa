@@ -1,3 +1,16 @@
+/*
+ * INSIGHT
+ * largest numbers bubble up to the end one at a time
+ * swapped flag enables early-exit for nearly sorted arrays
+ *
+ * COMPLEXITY
+ * time: Θ(n) [best] | Θ(n²) [average/worst]
+ * space: Θ(1) [auxiliary]
+ *
+ * PROPERTIES
+ * comparison-based | in-place | iterative | stable
+ */
+
 #include <stdbool.h>
 #include <stdio.h>
 

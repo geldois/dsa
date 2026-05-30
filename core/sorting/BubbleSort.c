@@ -1,3 +1,15 @@
+/*
+ * INSIGHT
+ * largest numbers bubble up to the end one at a time
+ *
+ * COMPLEXITY
+ * time: Θ(n²) [best/average/worst]
+ * space: Θ(1) [auxiliary]
+ *
+ * PROPERTIES
+ * comparison-based | in-place | iterative | stable
+ */
+
 #include <stdbool.h>
 #include <stdio.h>
 

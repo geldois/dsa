@@ -1,9 +1,0 @@
-# https://cses.fi/problemset/task/1094
-
-INSIGHT
-- iterate over the array while tracking the maximum seen so far
-- accumulate the increments needed to make the array non-decreasing
-
-COMPLEXITY
-- time: O(n)
-- space: O(1) auxiliary
