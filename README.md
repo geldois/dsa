@@ -36,7 +36,6 @@ For each problem in `problems/`:
 
 - C
 - Python
-- Rust — planned
 
 ## Setup
 
@@ -45,12 +44,13 @@ For each problem in `problems/`:
 ```bash
 git clone https://github.com/geldois/dsa.git
 cd dsa
-python3 -m venv .venv && source .venv/bin/activate
-pip install -e ".[dev]"
+uv sync --group dev
+uv run pre-commit install
 ```
 
 ## Profiles
 
 - GitHub: <https://github.com/geldois>
 - LinkedIn: <https://linkedin.com/in/geldois>
+
 - Codeforces: <https://codeforces.com/profile/geldois>

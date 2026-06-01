@@ -1,0 +1,49 @@
+/*
+ * INSIGHT
+ * largest numbers bubble up to the end one at a time
+ *
+ * COMPLEXITY
+ * time: Θ(n²) [best/average/worst]
+ * space: Θ(1) [auxiliary]
+ *
+ * PROPERTIES
+ * comparison-based | in-place | iterative | stable
+ */
+
+#include <stdbool.h>
+#include <stdio.h>
+
+void
+bubble_sort(int *array, size_t size)
+{
+	if (array == NULL || size <= 1) {
+		return;
+	}
+
+	for (size_t i = 0; i < size - 1; i++) {
+		for (size_t j = 0; j < size - 1 - i; j++) {
+			int curr = array[j];
+			int next = array[j + 1];
+
+			if (curr > next) {
+				array[j] = next;
+				array[j + 1] = curr;
+			}
+		}
+	}
+}
+
+void
+print(int *array, size_t size)
+{
+	for (size_t i = 0; i < size; i++) {
+		printf("%d ", array[i]);
+	}
+
+	printf("\n");
+}
+
+int
+main(void)
+{
+}

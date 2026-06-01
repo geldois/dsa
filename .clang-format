@@ -1,3 +1,19 @@
-BasedOnStyle: LLVM
-IndentWidth: 4
-UseTab: Never
+Language: Cpp
+BasedOnStyle: GNU
+
+IndentWidth: 8
+UseTab: Always
+ContinuationIndentWidth: 8
+ColumnLimit: 80
+
+BreakBeforeBraces: Linux
+AllowShortFunctionsOnASingleLine: None
+AllowShortEnumsOnASingleLine: false
+AllowShortCaseExpressionOnASingleLine: false
+
+SpaceBeforeParens: ControlStatements
+AlignEscapedNewlines: Left
+ReflowComments: false
+SortIncludes: true
+
+AccessModifierOffset: -8

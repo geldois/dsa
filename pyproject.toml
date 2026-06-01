@@ -1,19 +1,24 @@
-[build-system]
-requires = ["setuptools"]
-
 [project]
 name = "dsa"
 version = "0.1.0"
 description = "A structured system for mastering algorithms and data structures"
+requires-python = ">=3.12"
 dependencies = []
 
-[project.optional-dependencies]
-dev = [
-  "commitizen",
-  "pre-commit",
-  "pyright",
-  "ruff"
-]
+[dependency-groups]
+dev = ["basedpyright", "clang-format", "commitizen", "pre-commit", "ruff"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv"
+include = ["."]
+typeCheckingMode = "strict"
+pythonPlatform = "All"
+reportMissingTypeStubs = "none"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
@@ -24,15 +29,19 @@ update_map_pyproject = true
 
 [tool.ruff]
 line-length = 88
-indent-width = 4
-target-version = "py312"
 
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
+line-ending = "lf"
+docstring-code-format = true
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "B", "UP", "SIM"]
+select = ["ALL"]
+ignore = ["COM812", "D", "D100", "D101", "D203", "D212", "ISC001", "RUF012"]
 
-[tool.setuptools]
-packages = []
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.uv]
+package = false
