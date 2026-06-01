@@ -1,7 +1,10 @@
-## v0.1.0 (2026-05-06)
+## v0.1.0 (2026-06-01)
 
 ### Feat
 
+- **core**: implement bubble sort in C
+- **core**: implement insertion sort in C
+- **core**: implement bubble sort with early-exit strategy in C
 - implement singly linked list in C with full lifecycle management
 - implement pointer-based in-place string reverse in C
 - add solution to codeforces 2218B the 67th 6-7 integer problem
@@ -23,4 +26,8 @@
 
 ### Refactor
 
+- **repo**: strengthen linting, formatting, and dependency management
+- **repo**: simplify repo structure and eliminate cognitive overhead
+- **repo**: remove obsolet tooling
+- **typing**: reinforce the typing of structures in problems
 - rename repo and restructure directories into core and problems
