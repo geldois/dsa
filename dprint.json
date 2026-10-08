@@ -1,0 +1,37 @@
+{
+  "lineWidth": 120,
+  "indentWidth": 2,
+  "newLineKind": "lf",
+  "json": {
+    "indentWidth": 2
+  },
+  "toml": {
+    "indentWidth": 2
+  },
+  "markdown": {
+    "textWrap": "always",
+    "emphasisKind": "asterisks",
+    "strongKind": "asterisks",
+    "unorderedListKind": "dashes",
+    "headingKind": "atx"
+  },
+  "includes": [
+    "**/*.md",
+    "**/*.json",
+    "**/*.jsonc",
+    "**/*.toml"
+  ],
+  "excludes": [
+    "buffers/",
+    "uv.lock",
+    ".cache/",
+    ".venv/",
+    ".git/",
+    "**/__pycache__/"
+  ],
+  "plugins": [
+    "https://github.com/dprint/dprint-plugin-json/releases/download/0.23.0/plugin.wasm",
+    "https://github.com/dprint/dprint-plugin-toml/releases/download/0.7.0/plugin.wasm",
+    "https://github.com/dprint/dprint-plugin-markdown/releases/download/0.22.1/plugin.wasm"
+  ]
+}
